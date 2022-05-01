@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uma Pokedex feita como forma de estudo" >
+    <link rel="icon" href="img/pokeball.png" >
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <section class="header-principal">
+            <div>
+                <img class="logo-pokemon" src="img/logoPokemonPng 1.svg" loading="lazy" alt="logo Pokemon">
+            </div>
+        </section>  
+    </header>
+
+    <main>
+
+        <section class="main-principal">
+            <div class="main-a-pokedex" id="a-pokedex">
+                <div class="main-pokedex">
+                    <img id="pokedex" src="img/pokedex.svg">
+                </div>
+            </div>
+            <textarea type ="text" class="input-pokemon" id="nome-pokemon" name="nome-pokemon" placeholder="Digite aqui o nome do Pokémon!"></textarea>
+            <button class="btn-lg-pokedex" id="busca-pokemon" name="busca-pokemon">
+                <p id="txt-btn">B U S C A R  P O K E M O N</p>
+            </button>
+        </section>
+        <section class="invisivel" id="main-card">
+            <div class="card">
+                <img id="img-pokemon-card" src="">
+                <div class="box-status">
+                        <p class="status">Nome:
+                            <span id="nome-card" class="status">teste</span>
+                        </p>
+                        <p class="status">Tipo:
+                            <span id="tipo-card" class="status">teste</span>
+                        </p>
+                        <p class="status">Habilidades:
+                            <span id="habilidades-card" class="status">teste</span>
+                        </p>
+                        <p class="status">Peso:
+                            <span id="peso-card" class="status">teste</span>
+                        </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="footer">
+            <img class="poke-ball" src="img/gg_pokemon.svg">
+    </footer>
+
+</body>
+
+<script src="js/busca-pokemon.js "></script>
+<script src="js/criar-card.js"></script>
+
+</html> 
